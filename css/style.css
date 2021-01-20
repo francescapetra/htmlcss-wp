@@ -41,9 +41,18 @@ header{
   background-position: center;
   position: relative;
   border-radius: 15px;
+  z-index: 0;
 }
-
-h2, p{
+.overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+h3, p{
 color: white;
 text-align: left;
 bottom: 0;
@@ -52,7 +61,7 @@ margin-bottom: 75px;
 margin-left: 50px;
 padding: 10px;
 }
-h2{
+h3{
   font-weight: 500;
   font-size: 28px;
 }
@@ -76,6 +85,12 @@ p{
   width:100%;
   background-color: lightblue;
   margin-bottom: 20px;
+}
+h2{
+  font-size: 32px;
+}
+h6{
+  color: #858585;
 }
   .taglio-medio .sinistra,
   .taglio-medio .destra{
