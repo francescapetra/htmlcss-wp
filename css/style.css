@@ -10,10 +10,24 @@ body{
   margin: auto;
   font-family: 'Montserrat', sans-serif;
 }
+.logo{
+  max-width: 60%;
+  max-height: 60%;
+  margin-bottom: 25px;
+  /* box-shadow:  */
+  /* display: block; */
+  }
 header{
-  height: 100px;
+  height: 150px;
   width:100%;
   background-color: pink;
+}
+.barra ul, li, a{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  color: #929292;
+  text-transform: uppercase;
 }
   main{
   background-color: blue;
