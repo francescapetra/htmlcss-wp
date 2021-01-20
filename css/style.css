@@ -47,7 +47,7 @@ header{
   right: 0;
   bottom: 0;
   top: 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.2);
   z-index: 2;
   border-radius: 15px;
 }
@@ -131,4 +131,7 @@ footer{
 div.sinistra{
   position: relative;
   z-index: 0;
+}
+.over{
+  position: relative;
 }
