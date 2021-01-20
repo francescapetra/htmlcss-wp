@@ -41,6 +41,11 @@ header{
   background-color: yellow;
   margin: 20px 0;
 }
+.banner{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
  .taglio-medio:after{
    content: "";
    display: block;
