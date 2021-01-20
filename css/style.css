@@ -14,13 +14,14 @@ body{
   max-width: 60%;
   max-height: 60%;
   margin-bottom: 25px;
-  /* box-shadow:  */
+  box-shadow: 10px 0 10px -14px rgba(0,0,0,0.6);
+  /* box-shadow:  */#dedede
   /* display: block; */
   }
 header{
   height: 150px;
   width:100%;
-  background-color: pink;
+  /* background-color: pink; */
 }
 .barra ul, li, a{
   text-decoration: none;
