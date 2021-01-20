@@ -8,6 +8,7 @@ body{
 .contenitore{
   width: 80%;
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 header{
   height: 100px;
