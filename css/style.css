@@ -11,9 +11,9 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 #logo{
-  max-width: 60%;
-  max-height: 60%;
-  margin-bottom: 25px;
+  max-width: 55%;
+  max-height: 55%;
+  margin-bottom: 30px;
   box-shadow: 10px 0 10px -14px rgba(0,0,0,0.6);
   }
 header{
@@ -51,20 +51,20 @@ header{
   z-index: 1;
   border-radius: 15px;
 }
-h3, p{
-color: white;
-text-align: left;
-bottom: 0;
-position: absolute;
-margin-bottom: 75px;
-margin-left: 50px;
-padding: 10px;
-}
+  h3, p.banner{
+  color: white;
+  text-align: left;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  padding: 10px;
+  }
 h3{
   font-weight: 400;
   font-size: 28px;
 }
-p{
+p.banner{
   margin-bottom: 35px;
 }
  .taglio-medio:after{
@@ -76,7 +76,7 @@ p{
 .riga{
   height: 80px;
   width:100%;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   margin-top: 30px;
 }
 h2{
@@ -92,13 +92,11 @@ h6{
   .taglio-medio .destra{
   height: 350px;
   width:25%;
-  background-color: lightblue;
   float: left;
 }
 .taglio-medio .centro{
   height: 350px;
   width:46%;
-  background-color: lightblue;
   float: left;
   margin: 0 2%;
 }
@@ -107,11 +105,20 @@ img.centrale{
   border-radius: 15px;
   width: 100%;
   max-height: 50%;
-  /* height: 50%; */
+  object-fit: cover;
+}
+h5{
+  font-weight: 400;
+  font-size: 17px;
+}
+p.lorem{
+  margin-top:20px;
+  color: #858585;
+
 }
 footer{
   height: 50px;
   width:100%;
   background-color: purple;
-  margin-top: 20px;
+  margin-top: 200px;
 }
