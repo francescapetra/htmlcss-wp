@@ -21,7 +21,7 @@ body{
 header{
   height: 150px;
   width:100%;
-  /* background-color: pink; */
+  background-color: pink;
 }
 .barra ul, li, a{
   text-decoration: none;
@@ -29,6 +29,7 @@ header{
   display: inline-block;
   color: #929292;
   text-transform: uppercase;
+  margin-right: 10px;
 }
   main{
   background-color: blue;
